@@ -103,6 +103,16 @@ namespace OnlyPan_JM.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap flecha_hacia_atras {
+            get {
+                object obj = ResourceManager.GetObject("flecha-hacia-atras", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap hilo_frutas_confitadas_cerca_canasta_pan_23_2147851939 {
             get {
                 object obj = ResourceManager.GetObject("hilo-frutas-confitadas-cerca-canasta-pan_23-2147851939", resourceCulture);
@@ -136,6 +146,16 @@ namespace OnlyPan_JM.Properties {
         internal static System.Drawing.Bitmap unnamed {
             get {
                 object obj = ResourceManager.GetObject("unnamed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap usuario_de_perfil {
+            get {
+                object obj = ResourceManager.GetObject("usuario-de-perfil", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

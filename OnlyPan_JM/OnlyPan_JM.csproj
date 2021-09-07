@@ -7,6 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Update="Empleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
@@ -15,6 +18,174 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="Form1 - Copia %282%29 - Copia %282%29 - Copia %282%29.resx">
+      <DependentUpon>Form1 - Copia (2) - Copia (2).resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia %282%29 - Copia %282%29 - Copia - Copia.resx">
+      <DependentUpon>Form1 - Copia (2) - Copia (2) - Copia.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia %282%29 - Copia %282%29 - Copia.resx">
+      <DependentUpon>Form1 - Copia (2) - Copia (2).resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia %282%29 - Copia %282%29.resx">
+      <DependentUpon>Form1.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia %282%29 - Copia %283%29 - Copia.resx">
+      <DependentUpon>Form1 - Copia (2) - Copia (3).resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia %282%29 - Copia %283%29.resx">
+      <DependentUpon>Form1.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia %282%29 - Copia %284%29.resx">
+      <DependentUpon>Form1.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia %282%29 - Copia - Copia %282%29 - Copia.resx">
+      <DependentUpon>Form1 - Copia (2) - Copia - Copia (2).resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia %282%29 - Copia - Copia %282%29.resx">
+      <DependentUpon>Form1 - Copia (2).resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia %282%29 - Copia - Copia %283%29.resx">
+      <DependentUpon>Form1 - Copia (2).resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia %282%29 - Copia - Copia - Copia %282%29.resx">
+      <DependentUpon>Form1 - Copia (2) - Copia - Copia.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia %282%29 - Copia - Copia - Copia - Copia.resx">
+      <DependentUpon>Form1 - Copia (2) - Copia - Copia - Copia.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia %282%29 - Copia - Copia - Copia.resx">
+      <DependentUpon>Form1 - Copia (2) - Copia - Copia.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia %282%29 - Copia - Copia.resx">
+      <DependentUpon>Form1 - Copia (2).resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia %282%29 - Copia.resx">
+      <DependentUpon>Form1 - Copia (2).resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia %282%29.resx">
+      <DependentUpon>Form1.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia %283%29 - Copia %282%29 - Copia.resx">
+      <DependentUpon>Form1 - Copia (3) - Copia (2).resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia %283%29 - Copia %282%29.resx">
+      <DependentUpon>Form1.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia %283%29 - Copia %283%29.resx">
+      <DependentUpon>Form1.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia %283%29 - Copia - Copia %282%29.resx">
+      <DependentUpon>Form1 - Copia (3) - Copia.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia %283%29 - Copia - Copia - Copia.resx">
+      <DependentUpon>Form1 - Copia (3) - Copia - Copia.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia %283%29 - Copia - Copia.resx">
+      <DependentUpon>Form1 - Copia (3) - Copia.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia %283%29 - Copia.resx">
+      <DependentUpon>Form1.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia %283%29.resx">
+      <DependentUpon>Form1.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia - Copia %282%29 - Copia %282%29 - Copia.resx">
+      <DependentUpon>Form1 - Copia - Copia (2) - Copia (2).resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia - Copia %282%29 - Copia %282%29.resx">
+      <DependentUpon>Form1 - Copia.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia - Copia %282%29 - Copia %283%29.resx">
+      <DependentUpon>Form1 - Copia.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia - Copia %282%29 - Copia - Copia %282%29.resx">
+      <DependentUpon>Form1 - Copia - Copia (2) - Copia.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia - Copia %282%29 - Copia - Copia - Copia.resx">
+      <DependentUpon>Form1 - Copia - Copia (2) - Copia - Copia.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia - Copia %282%29 - Copia - Copia.resx">
+      <DependentUpon>Form1 - Copia - Copia (2) - Copia.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia - Copia %282%29 - Copia.resx">
+      <DependentUpon>Form1 - Copia.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia - Copia %282%29.resx">
+      <DependentUpon>Form1 - Copia.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia - Copia %283%29 - Copia %282%29.resx">
+      <DependentUpon>Form1 - Copia - Copia (3).resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia - Copia %283%29 - Copia - Copia.resx">
+      <DependentUpon>Form1 - Copia - Copia (3) - Copia.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia - Copia %283%29 - Copia.resx">
+      <DependentUpon>Form1 - Copia - Copia (3).resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia - Copia %283%29.resx">
+      <DependentUpon>Form1.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia - Copia %284%29 - Copia.resx">
+      <DependentUpon>Form1 - Copia - Copia (4).resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia - Copia %284%29.resx">
+      <DependentUpon>Form1.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia - Copia %285%29.resx">
+      <DependentUpon>Form1.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia - Copia - Copia %282%29 - Copia %282%29.resx">
+      <DependentUpon>Form1 - Copia - Copia - Copia (2).resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia - Copia - Copia %282%29 - Copia - Copia.resx">
+      <DependentUpon>Form1 - Copia - Copia - Copia (2) - Copia.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia - Copia - Copia %282%29 - Copia.resx">
+      <DependentUpon>Form1 - Copia - Copia - Copia (2).resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia - Copia - Copia %282%29.resx">
+      <DependentUpon>Form1 - Copia.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia - Copia - Copia %283%29 - Copia.resx">
+      <DependentUpon>Form1 - Copia - Copia - Copia (3).resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia - Copia - Copia %283%29.resx">
+      <DependentUpon>Form1 - Copia.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia - Copia - Copia %284%29.resx">
+      <DependentUpon>Form1 - Copia.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia - Copia - Copia - Copia %282%29 - Copia.resx">
+      <DependentUpon>Form1 - Copia - Copia - Copia - Copia (2).resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia - Copia - Copia - Copia %282%29.resx">
+      <DependentUpon>Form1 - Copia - Copia.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia - Copia - Copia - Copia %283%29.resx">
+      <DependentUpon>Form1 - Copia - Copia.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia - Copia - Copia - Copia - Copia %282%29.resx">
+      <DependentUpon>Form1 - Copia - Copia - Copia - Copia.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia - Copia - Copia - Copia - Copia - Copia.resx">
+      <DependentUpon>Form1 - Copia - Copia - Copia - Copia - Copia.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia - Copia - Copia - Copia - Copia.resx">
+      <DependentUpon>Form1 - Copia - Copia - Copia - Copia.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia - Copia - Copia - Copia.resx">
+      <DependentUpon>Form1 - Copia - Copia.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia - Copia - Copia.resx">
+      <DependentUpon>Form1 - Copia - Copia.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia - Copia.resx">
+      <DependentUpon>Form1 - Copia.resx</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Form1 - Copia.resx">
+      <DependentUpon>Form1.resx</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Update="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

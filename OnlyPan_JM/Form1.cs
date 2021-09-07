@@ -19,7 +19,7 @@ namespace OnlyPan_JM
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -64,7 +64,31 @@ namespace OnlyPan_JM
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Inicio de sesion exitosa");
+            using (Admin sf = new Admin())
+            {
+                if (textBox1.Text == "" & textBox2.Text == "")
+                {
+                    this.Hide();
+                    sf.ShowDialog();
+                    this.Close();
+                } 
+                else
+                {
+                    MessageBox.Show("Datos incorrectos");
+                    textBox1.Clear();
+                    textBox2.Clear();
+                }
+            }
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

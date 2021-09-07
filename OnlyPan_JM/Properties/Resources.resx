@@ -124,8 +124,14 @@
   <data name="iconos-pan-panaderia_202271-510" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconos-pan-panaderia_202271-510.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="usuario-de-perfil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\usuario-de-perfil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="flecha-derecha-recta" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\flecha-derecha-recta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hilo-frutas-confitadas-cerca-canasta-pan_23-2147851939" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hilo-frutas-confitadas-cerca-canasta-pan_23-2147851939.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="depositphotos_78970584-stock-illustration-bakery-flat-icons-with-breads" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\depositphotos_78970584-stock-illustration-bakery-flat-icons-with-breads.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -139,7 +145,7 @@
   <data name="7353915-conjunto-de-iconos-de-la-silueta-de-pan-y-bollería-" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\7353915-conjunto-de-iconos-de-la-silueta-de-pan-y-bollería-.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="hilo-frutas-confitadas-cerca-canasta-pan_23-2147851939" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hilo-frutas-confitadas-cerca-canasta-pan_23-2147851939.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="flecha-hacia-atras" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flecha-hacia-atras.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
