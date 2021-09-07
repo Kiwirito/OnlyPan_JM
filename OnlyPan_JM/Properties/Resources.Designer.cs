@@ -63,6 +63,16 @@ namespace OnlyPan_JM.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _7353915_conjunto_de_iconos_de_la_silueta_de_pan_y_bollería_ {
+            get {
+                object obj = ResourceManager.GetObject("7353915-conjunto-de-iconos-de-la-silueta-de-pan-y-bollería-", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap depositphotos_78970584_stock_illustration_bakery_flat_icons_with_breads {
             get {
                 object obj = ResourceManager.GetObject("depositphotos_78970584-stock-illustration-bakery-flat-icons-with-breads", resourceCulture);
@@ -73,9 +83,49 @@ namespace OnlyPan_JM.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap flecha_derecha_recta {
+            get {
+                object obj = ResourceManager.GetObject("flecha-derecha-recta", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap flecha_derecha_recta__1_ {
+            get {
+                object obj = ResourceManager.GetObject("flecha-derecha-recta (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hilo_frutas_confitadas_cerca_canasta_pan_23_2147851939 {
+            get {
+                object obj = ResourceManager.GetObject("hilo-frutas-confitadas-cerca-canasta-pan_23-2147851939", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap iconos_pan_panaderia_202271_510 {
             get {
                 object obj = ResourceManager.GetObject("iconos-pan-panaderia_202271-510", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconos_pan_panaderia_202271_5101 {
+            get {
+                object obj = ResourceManager.GetObject("iconos-pan-panaderia_202271-5101", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
