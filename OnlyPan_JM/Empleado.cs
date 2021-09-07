@@ -13,7 +13,14 @@ namespace OnlyPan_JM
     public partial class Empleado : Form
 
     {
-       
+        public int sumatoria1 = 0;
+        public int cantidad1 = 0;
+        public int sumatoria2 = 0;
+        public int cantidad2 = 0;
+        public int sumatoria3 = 0;
+        public int cantidad3 = 0;
+        public int sumtotal = 0;
+
         public Empleado()
         {
             InitializeComponent();
@@ -139,15 +146,39 @@ namespace OnlyPan_JM
             }
             else
             {
-
+                if (comboBox1.SelectedItem == "Pan milo - 1000$")
+                {
+                    sumatoria1 = sumatoria1 + 1000;
+                    cantidad1 = cantidad1 + 1;
+                }
+                if (comboBox1.SelectedItem == "Pan leche - 2000$")
+                {
+                    sumatoria2 = sumatoria2 + 2000;
+                    cantidad2 = cantidad2 + 1;
+                }
+                if (comboBox1.SelectedItem == "Pan dulce  - 3500$")
+                {
+                    sumatoria3 = sumatoria3 + 3500;
+                    cantidad3 = cantidad3 + 1;
+                }
                 richTextBox1.Text = richTextBox1.Text + "\n" + "---------------------------------------------------------------------------------------------------------------------------------------" + "\n" + comboBox1.SelectedItem + "\n" + "---------------------------------------------------------------------------------------------------------------------------------------";
                 comboBox1.Text = string.Empty;
+              
             }
 
 
 
 
 
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            comboBox1.Text = string.Empty;
+            label3.Text = "--- Ventas Totales ($) ---";
+            richTextBox1.Clear();
+            sumtotal = sumatoria1 + sumatoria2 + sumatoria3;
+            richTextBox1.Text = richTextBox1.Text + "\n" + "---------------------------------------------------------------------------------------------------------------------------------------" + "\n" + "Pan de milo total vendidas = " + cantidad1 + " sumando un valor de " + sumatoria1 + "\n" + "---------------------------------------------------------------------------------------------------------------------------------------" + "\n" + "---------------------------------------------------------------------------------------------------------------------------------------" + "\n" + "Pan de leche total vendidas = " + cantidad2 + " sumando un valor de " + sumatoria2 + "\n" + "---------------------------------------------------------------------------------------------------------------------------------------" + "\n" + "---------------------------------------------------------------------------------------------------------------------------------------" + "\n" + "Pan de suave total vendidas = " + cantidad3 + " sumando un valor de " + sumatoria3 + "\n" + "---------------------------------------------------------------------------------------------------------------------------------------" + "\n" + "---------------------------------------------------------------------------------------------------------------------------------------" + "\n" + "Total cantidad = " + sumtotal + " $"+ "\n" + "---------------------------------------------------------------------------------------------------------------------------------------";
         }
     }
 }

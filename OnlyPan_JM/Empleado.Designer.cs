@@ -44,6 +44,7 @@ namespace OnlyPan_JM
             this.panel5 = new System.Windows.Forms.Panel();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -56,6 +57,7 @@ namespace OnlyPan_JM
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(124)))), ((int)(((byte)(80)))));
+            this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.comboBox1);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button2);
@@ -111,12 +113,12 @@ namespace OnlyPan_JM
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Font = new System.Drawing.Font("Nirmala UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(124)))), ((int)(((byte)(80)))));
-            this.button2.Location = new System.Drawing.Point(0, 574);
+            this.button2.Location = new System.Drawing.Point(0, 486);
             this.button2.Name = "button2";
             this.button2.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.button2.Size = new System.Drawing.Size(200, 39);
             this.button2.TabIndex = 7;
-            this.button2.Text = "Reporte";
+            this.button2.Text = "Factura";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -237,13 +239,31 @@ namespace OnlyPan_JM
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(124)))), ((int)(((byte)(80)))));
             this.label3.Font = new System.Drawing.Font("Nirmala UI", 51.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(234)))), ((int)(((byte)(222)))));
-            this.label3.Location = new System.Drawing.Point(46, 16);
+            this.label3.Location = new System.Drawing.Point(132, 11);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(772, 92);
+            this.label3.Size = new System.Drawing.Size(592, 92);
             this.label3.TabIndex = 0;
-            this.label3.Text = "--- Ventas Totales ($) ---";
+            this.label3.Text = "--- Facturacion ---";
             this.label3.Visible = false;
             this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(213)))), ((int)(((byte)(174)))));
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(213)))), ((int)(((byte)(174)))));
+            this.button4.FlatAppearance.BorderSize = 15;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button4.Font = new System.Drawing.Font("Nirmala UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(124)))), ((int)(((byte)(80)))));
+            this.button4.Location = new System.Drawing.Point(0, 531);
+            this.button4.Name = "button4";
+            this.button4.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.button4.Size = new System.Drawing.Size(200, 39);
+            this.button4.TabIndex = 10;
+            this.button4.Text = "Reporte";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // Empleado
             // 
@@ -289,5 +309,6 @@ namespace OnlyPan_JM
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
     }
 }
