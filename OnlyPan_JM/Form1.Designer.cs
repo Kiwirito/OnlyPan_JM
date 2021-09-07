@@ -180,7 +180,7 @@ namespace OnlyPan_JM
             // pictureBox3
             // 
             this.pictureBox3.Image = global::OnlyPan_JM.Properties.Resources.hilo_frutas_confitadas_cerca_canasta_pan_23_2147851939;
-            this.pictureBox3.Location = new System.Drawing.Point(195, -1);
+            this.pictureBox3.Location = new System.Drawing.Point(194, -1);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(896, 652);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;

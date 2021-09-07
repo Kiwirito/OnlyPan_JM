@@ -11,7 +11,9 @@ using System.Windows.Forms;
 namespace OnlyPan_JM
 {
     public partial class Empleado : Form
+
     {
+       
         public Empleado()
         {
             InitializeComponent();
@@ -111,21 +113,40 @@ namespace OnlyPan_JM
 
         private void panel5_Paint(object sender, PaintEventArgs e)
         {
-            
+
         }
 
         private void label3_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
-            
+
         }
 
         private void Admin_Load(object sender, EventArgs e)
         {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (String.IsNullOrEmpty(comboBox1.Text))
+            {
+                MessageBox.Show("Primero seleccionar un producto");
+            }
+            else
+            {
+
+                richTextBox1.Text = richTextBox1.Text + "\n" + "---------------------------------------------------------------------------------------------------------------------------------------" + "\n" + comboBox1.SelectedItem + "\n" + "---------------------------------------------------------------------------------------------------------------------------------------";
+                comboBox1.Text = string.Empty;
+            }
+
+
+
+
 
         }
     }

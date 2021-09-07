@@ -123,6 +123,16 @@ namespace OnlyPan_JM.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap hilo_frutas_confitadas_cerca_canasta_pan_23_21478519391 {
+            get {
+                object obj = ResourceManager.GetObject("hilo-frutas-confitadas-cerca-canasta-pan_23-21478519391", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap iconos_pan_panaderia_202271_510 {
             get {
                 object obj = ResourceManager.GetObject("iconos-pan-panaderia_202271-510", resourceCulture);

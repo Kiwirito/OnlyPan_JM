@@ -64,14 +64,26 @@ namespace OnlyPan_JM
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            using (Admin sf = new Admin())
+            if (textBox1.Text == "Admin" & textBox2.Text == "000345")
             {
-                if (textBox1.Text == "" & textBox2.Text == "")
+                using (Admin sf = new Admin())
                 {
                     this.Hide();
                     sf.ShowDialog();
                     this.Close();
-                } 
+                }
+            }
+            else
+            {
+                if (textBox1.Text == "" & textBox2.Text == "")
+                {
+                    using (Empleado sf = new Empleado())
+                    {
+                        this.Hide();
+                        sf.ShowDialog();
+                        this.Close();
+                    }
+                }
                 else
                 {
                     MessageBox.Show("Datos incorrectos");
@@ -79,14 +91,32 @@ namespace OnlyPan_JM
                     textBox2.Clear();
                 }
             }
+      
         }
 
+        
+                
         private void pictureBox3_Click(object sender, EventArgs e)
         {
 
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
         {
 
         }

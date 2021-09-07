@@ -19,7 +19,7 @@ namespace OnlyPan_JM
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Bienvenido Señor Administrador");
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -94,25 +94,12 @@ namespace OnlyPan_JM
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (panel5.Visible == false & richTextBox1.Visible == false & label3.Visible == false)
-            {
-                panel5.Visible = true;
-                richTextBox1.Visible = true;
-                label3.Visible = true;
-            }
-            else
-            {
-                panel5.Visible = false;
-                richTextBox1.Visible = false;
-                label3.Visible = false;
-            }
-
+           
         }
 
         private void panel5_Paint(object sender, PaintEventArgs e)
         {
-            
-        }
+                    }
 
         private void label3_Click(object sender, EventArgs e)
         {
